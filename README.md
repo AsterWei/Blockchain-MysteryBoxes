@@ -95,6 +95,8 @@ compile 不同名字的 contract ，对应不同名字的文件夹。
 
 修改scripts文件夹里面那个文件名字为：deploy.js
 
+`npx hardhat run --network huygens scripts/deploy.js`
+
 模板：
 
 ```javascript
