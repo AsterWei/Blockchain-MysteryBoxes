@@ -13,12 +13,16 @@ contract Marketplace is ReentrancyGuard {
     address payable public immutable feeAccount; // the account that receives fees
     uint public immutable feePercent; // the fee percentage on sales 
     uint public itemCount; 
+    uint public boxprice = 200000000000000000;//0.1 eth
+    // address boxaddr = 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266;
+    address payable public immutable boxplatform = payable(boxaddr);
 
     struct Item {
         uint itemId;
         IERC721 nft;
         uint tokenId;
         uint price;
+        // uint fakeprice;
         address payable seller;
         bool sold;
     }
@@ -48,8 +52,8 @@ contract Marketplace is ReentrancyGuard {
     }
 
     // Make item to offer on the marketplace
-    function makeItem(IERC721 _nft, uint _tokenId, uint _price) external nonReentrant {
-        require(_price > 0, "Price must be greater than zero");
+    function makeItem(IERC721 _nft, uint _tokenId) external nonReentrant {//_nftis NFT's address, Token is the index
+        // require(_price > 0, "Price must be greater than zero");
         // increment itemCount
         itemCount ++;
         // transfer nft
@@ -59,7 +63,8 @@ contract Marketplace is ReentrancyGuard {
             itemCount,
             _nft,
             _tokenId,
-            _price,
+            // _price,//real price
+            boxprice,//fakeprice
             payable(msg.sender),
             false
         );
@@ -68,20 +73,29 @@ contract Marketplace is ReentrancyGuard {
             itemCount,
             address(_nft),
             _tokenId,
-            _price,
+            // _price,
+            boxprice,
             msg.sender
         );
     }
 
+    // function paytheSeller(uint _itemId) external payable nonReentrant {
+    //     uint _totalPrice = getTotalPrice(_itemId);
+    //     Item storage item = items[_itemId];
+    //     item.seller.transfer(item.price);
+    // }
+
     function purchaseItem(uint _itemId) external payable nonReentrant {
-        uint _totalPrice = getTotalPrice(_itemId);
+        uint _totalPrice = (boxprice*(100 + feePercent))/100;
         Item storage item = items[_itemId];
         require(_itemId > 0 && _itemId <= itemCount, "item doesn't exist");
         require(msg.value >= _totalPrice, "not enough ether to cover item price and market fee");
         require(!item.sold, "item already sold");
-        // pay seller and feeAccount
-        item.seller.transfer(item.price);
-        feeAccount.transfer(_totalPrice - item.price);
+        //give platform the item price
+        boxplatform.transfer(boxprice);
+        // item.seller.transfer(item.fakeprice);
+        feeAccount.transfer(_totalPrice - boxprice);
+
         // update item to sold
         item.sold = true;
         // transfer nft to buyer
