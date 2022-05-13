@@ -14,7 +14,7 @@ contract Marketplace is ReentrancyGuard {
     uint public immutable feePercent; // the fee percentage on sales 
     uint public itemCount; 
     uint public boxprice = 200000000000000000;//0.1 eth
-    // address boxaddr = 0xf39Fd6e51aad88F6F4ce6aB8827279cffFb92266;
+    address boxaddr = 0x1398f889b45CFF3Ef68Dc0E9C6611ce3021322c9;
     address payable public immutable boxplatform = payable(boxaddr);
 
     struct Item {
@@ -52,8 +52,8 @@ contract Marketplace is ReentrancyGuard {
     }
 
     // Make item to offer on the marketplace
-    function makeItem(IERC721 _nft, uint _tokenId) external nonReentrant {//_nftis NFT's address, Token is the index
-        // require(_price > 0, "Price must be greater than zero");
+    function makeItem(IERC721 _nft, uint _tokenId, uint _price) external nonReentrant {//_nftis NFT's address, Token is the index
+        require(_price > 0, "Price must be greater than zero");
         // increment itemCount
         itemCount ++;
         // transfer nft
@@ -105,7 +105,8 @@ contract Marketplace is ReentrancyGuard {
             _itemId,
             address(item.nft),
             item.tokenId,
-            item.price,
+            // item.price,
+            boxprice,
             item.seller,
             msg.sender
         );
