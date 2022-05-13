@@ -1,0 +1,8 @@
+.card::before {
+    width: 100%;
+    height: 100%;
+    content: '';
+    position: absolute;
+    border: 7px ridge;
+    border-color: var(--borderColor);
+}

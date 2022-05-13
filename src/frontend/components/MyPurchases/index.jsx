@@ -1,10 +1,12 @@
 import { useState, useEffect } from 'react'
 import { ethers } from "ethers"
 import { Row, Col, Card } from 'react-bootstrap'
+// import './index.css'
 
 export default function MyPurchases({ marketplace, nft, account }) {
     const [loading, setLoading] = useState(true)
     const [purchases, setPurchases] = useState([])
+    const [borderColor, setBorderColor] = useState('#FFA80D')
     const loadPurchasedItems = async () => {
         // Fetch purchased items from marketplace by quering Offered events with the buyer set as the user
         const filter = marketplace.filters.Bought(null, null, null, null, null, account)
@@ -50,7 +52,7 @@ export default function MyPurchases({ marketplace, nft, account }) {
                     <Row xs={1} md={2} lg={4} className="g-4 py-5">
                         {purchases.map((item, idx) => (
                             <Col key={idx} className="overflow-hidden">
-                                <Card>
+                                <Card className='card' style={{'--borderColor': borderColor}}>
                                     <Card.Img variant="top" src={item.image} />
                                     <Card.Footer>{ethers.utils.formatEther(item.totalPrice)} ETH</Card.Footer>
                                 </Card>

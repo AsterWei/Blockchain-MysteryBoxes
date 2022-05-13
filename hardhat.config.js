@@ -9,13 +9,5 @@ module.exports = {
     sources: "./src/backend/contracts",
     cache: "./src/backend/cache",
     tests: "./src/backend/test"
-  },
-  defaultNetwork: "ropsten",
-  networks: {
-    hardhat: {},
-    ropsten: {
-       url: API_URL,
-       accounts: [`0x${PRIVATE_KEY}`]
-    }
- },
+  }
 };
