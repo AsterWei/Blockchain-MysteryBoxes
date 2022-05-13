@@ -4,20 +4,24 @@
     "name": "MysteryBoxMetadata 8",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": "\u2605\u2605"
+        },
+        {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
-            "value": "No Earring"
+            "value": "Left Earring"
         },
         {
             "trait_type": "Eyes",
-            "value": "Small"
+            "value": "Regular"
         },
         {
             "trait_type": "Hair",
-            "value": "Up Hair"
+            "value": "Thin Hair"
         },
         {
             "trait_type": "Mouth",

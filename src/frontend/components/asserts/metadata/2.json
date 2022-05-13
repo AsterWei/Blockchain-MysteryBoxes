@@ -4,28 +4,32 @@
     "name": "MysteryBoxMetadata 2",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": "\u2605\u2605\u2605\u2605\u2605"
+        },
+        {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
-            "value": "Left Earring"
+            "value": "Right Earring"
         },
         {
             "trait_type": "Eyes",
-            "value": "Regular"
+            "value": "Focused"
         },
         {
             "trait_type": "Hair",
-            "value": "Pony Tails"
+            "value": "Caret Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Teeth Smile"
+            "value": "Big Smile"
         },
         {
             "trait_type": "Nose",
-            "value": "Nose Ring"
+            "value": "Nose"
         }
     ]
 }

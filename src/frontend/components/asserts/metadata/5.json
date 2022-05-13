@@ -4,12 +4,16 @@
     "name": "MysteryBoxMetadata 5",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": "\u2605\u2605\u2605\u2605"
+        },
+        {
             "trait_type": "Face",
             "value": "White"
         },
         {
             "trait_type": "Ears",
-            "value": "Right Earring"
+            "value": "No Earring"
         },
         {
             "trait_type": "Eyes",
@@ -17,11 +21,11 @@
         },
         {
             "trait_type": "Hair",
-            "value": "Down Hair"
+            "value": "Bubble Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Black Lipstick"
+            "value": "Teeth Smile"
         },
         {
             "trait_type": "Nose",

@@ -1,92 +1,1002 @@
 [
     {
-        "Face": "Black",
-        "Ears": "Right Earring",
+        "Face": "White",
+        "Ears": "Left Earring",
         "Eyes": "Regular",
-        "Hair": "Pony Tails",
+        "Hair": "Emo Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 0
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 1
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Caret Hair",
         "Mouth": "Big Smile",
         "Nose": "Nose",
-        "tokenId": 0
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 2
     },
     {
         "Face": "White",
         "Ears": "Right Earring",
         "Eyes": "Regular",
-        "Hair": "Up Hair",
+        "Hair": "Bald",
         "Mouth": "Big Smile",
         "Nose": "Nose",
-        "tokenId": 1
+        "Rarity": "\u2605\u2605",
+        "tokenId": 3
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 4
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 5
     },
     {
         "Face": "Black",
         "Ears": "Left Earring",
         "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 6
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
         "Hair": "Pony Tails",
-        "Mouth": "Teeth Smile",
-        "Nose": "Nose Ring",
-        "tokenId": 2
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 7
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605",
+        "tokenId": 8
     },
     {
         "Face": "Black",
         "Ears": "Right Earring",
         "Eyes": "Regular",
         "Hair": "Bald",
-        "Mouth": "Teeth Smile",
-        "Nose": "Nose",
-        "tokenId": 3
+        "Mouth": "Big Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 9
     },
     {
         "Face": "Black",
         "Ears": "Left Earring",
-        "Eyes": "Focused",
-        "Hair": "Red Mohawk",
+        "Eyes": "Regular",
+        "Hair": "Up Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 10
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605",
+        "tokenId": 11
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 12
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 13
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Small",
+        "Hair": "Bald",
         "Mouth": "Teeth Smile",
         "Nose": "Nose",
-        "tokenId": 4
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 14
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 15
     },
     {
         "Face": "White",
         "Ears": "Right Earring",
         "Eyes": "Regular",
-        "Hair": "Down Hair",
+        "Hair": "Bubble Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 16
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Mohawk",
+        "Mouth": "Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 17
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 18
+    },
+    {
+        "Face": "Black",
+        "Ears": "Two Earrings",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 19
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Big Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 20
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Purple Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 21
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
         "Mouth": "Black Lipstick",
         "Nose": "Nose",
-        "tokenId": 5
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 22
     },
     {
         "Face": "White",
         "Ears": "Left Earring",
         "Eyes": "Regular",
-        "Hair": "Orange Hair",
+        "Hair": "Emo Hair",
         "Mouth": "Big Smile",
         "Nose": "Nose",
-        "tokenId": 6
+        "Rarity": "\u2605\u2605",
+        "tokenId": 23
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Pony Tails",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 24
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Caret Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 25
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605",
+        "tokenId": 26
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Purple Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 27
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Bald",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 28
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 29
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Down Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 30
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 31
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Caret Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 32
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 33
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 34
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605",
+        "tokenId": 35
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 36
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 37
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 38
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Orange Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 39
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Blonde Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 40
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 41
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 42
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 43
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Emo Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 44
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 45
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 46
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 47
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 48
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Up Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 49
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Small",
+        "Hair": "Bald",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 50
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Purple Lipstick",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 51
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Small",
+        "Hair": "Red Mohawk",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 52
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Mohawk",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 53
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Rayban",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 54
+    },
+    {
+        "Face": "White",
+        "Ears": "Two Earrings",
+        "Eyes": "Focused",
+        "Hair": "Bald",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 55
     },
     {
         "Face": "White",
         "Ears": "Left Earring",
         "Eyes": "Focused",
-        "Hair": "Emo Hair",
-        "Mouth": "Smile",
+        "Hair": "Bubble Hair",
+        "Mouth": "Big Smile",
         "Nose": "Nose",
-        "tokenId": 7
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 56
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 57
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Small",
+        "Hair": "Thin Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 58
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Pony Tails",
+        "Mouth": "Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 59
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605",
+        "tokenId": 60
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Orange Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 61
     },
     {
         "Face": "Black",
         "Ears": "No Earring",
         "Eyes": "Small",
-        "Hair": "Up Hair",
+        "Hair": "Emo Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 62
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
         "Mouth": "Big Smile",
         "Nose": "Nose",
-        "tokenId": 8
+        "Rarity": "\u2605\u2605",
+        "tokenId": 63
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 64
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 65
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 66
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 67
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Pony Tails",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 68
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Small",
+        "Hair": "Thin Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 69
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 70
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Down Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 71
     },
     {
         "Face": "White",
         "Ears": "Right Earring",
         "Eyes": "Regular",
-        "Hair": "Down Hair",
+        "Hair": "Bubble Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 72
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Small",
+        "Hair": "Blonde Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 73
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 74
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Focused",
+        "Hair": "Bald",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 75
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Focused",
+        "Hair": "Bald",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 76
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 77
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 78
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Small",
+        "Hair": "Blonde Hair",
         "Mouth": "Smile",
         "Nose": "Nose",
-        "tokenId": 9
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 79
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Small",
+        "Hair": "Emo Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 80
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 81
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 82
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 83
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bubble Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605",
+        "tokenId": 84
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 85
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Focused",
+        "Hair": "Blonde Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 86
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Big Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 87
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 88
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Up Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 89
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Mohawk",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 90
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 91
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Small",
+        "Hair": "Thin Hair",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 92
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Focused",
+        "Hair": "Thin Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 93
+    },
+    {
+        "Face": "White",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Thin Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose Ring",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 94
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Focused",
+        "Hair": "Up Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 95
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Regular",
+        "Hair": "Blonde Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605",
+        "tokenId": 96
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Down Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 97
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Emo Hair",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605",
+        "tokenId": 98
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Mohawk",
+        "Mouth": "Red Lipstick",
+        "Nose": "Nose",
+        "Rarity": "\u2605\u2605\u2605\u2605\u2605",
+        "tokenId": 99
     }
 ]

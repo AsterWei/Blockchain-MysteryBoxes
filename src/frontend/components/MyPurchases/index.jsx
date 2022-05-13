@@ -1,12 +1,15 @@
 import { useState, useEffect } from 'react'
 import { ethers } from "ethers"
 import { Row, Col, Card } from 'react-bootstrap'
+import NFTAddress from '../../contractsData/NFT-address.json'
 // import './index.css'
 
 export default function MyPurchases({ marketplace, nft, account }) {
     const [loading, setLoading] = useState(true)
     const [purchases, setPurchases] = useState([])
     const [borderColor, setBorderColor] = useState('#FFA80D')
+    const NFT_address = NFTAddress.address
+
     const loadPurchasedItems = async () => {
         // Fetch purchased items from marketplace by quering Offered events with the buyer set as the user
         const filter = marketplace.filters.Bought(null, null, null, null, null, account)
@@ -28,6 +31,7 @@ export default function MyPurchases({ marketplace, nft, account }) {
                 totalPrice,
                 price: i.price,
                 itemId: i.itemId,
+                tokenId: i.tokenId,
                 rarity: metadata.rarity,
                 // name: metadata.name,
                 // description: metadata.description,
@@ -56,6 +60,8 @@ export default function MyPurchases({ marketplace, nft, account }) {
                                 <Card className='card' style={{'--borderColor': borderColor}}>
                                     <Card.Img variant="top" src={item.image} />
                                     {/* <Card.Footer>{ethers.utils.formatEther(item.totalPrice)} ETH</Card.Footer> */}
+                                    <Card.Text>NFT Address: {NFT_address}</Card.Text>
+                                    <Card.Text>{ item.tokenId.toString() }</Card.Text>
                                     <Card.Footer>{item.rarity}</Card.Footer>
                                 </Card>
                             </Col>

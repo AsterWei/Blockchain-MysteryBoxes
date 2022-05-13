@@ -4,8 +4,12 @@
     "name": "MysteryBoxMetadata 9",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": "\u2605\u2605\u2605\u2605\u2605"
+        },
+        {
             "trait_type": "Face",
-            "value": "White"
+            "value": "Black"
         },
         {
             "trait_type": "Ears",
@@ -17,15 +21,15 @@
         },
         {
             "trait_type": "Hair",
-            "value": "Down Hair"
+            "value": "Bald"
         },
         {
             "trait_type": "Mouth",
-            "value": "Smile"
+            "value": "Big Smile"
         },
         {
             "trait_type": "Nose",
-            "value": "Nose"
+            "value": "Nose Ring"
         }
     ]
 }

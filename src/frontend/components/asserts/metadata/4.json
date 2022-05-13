@@ -4,8 +4,12 @@
     "name": "MysteryBoxMetadata 4",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": "\u2605\u2605\u2605\u2605"
+        },
+        {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
@@ -13,15 +17,15 @@
         },
         {
             "trait_type": "Eyes",
-            "value": "Focused"
+            "value": "Regular"
         },
         {
             "trait_type": "Hair",
-            "value": "Red Mohawk"
+            "value": "Thin Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Teeth Smile"
+            "value": "Red Lipstick"
         },
         {
             "trait_type": "Nose",

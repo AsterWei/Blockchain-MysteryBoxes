@@ -4,12 +4,16 @@
     "name": "MysteryBoxMetadata 0",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": "\u2605\u2605\u2605\u2605"
+        },
+        {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
-            "value": "Right Earring"
+            "value": "Left Earring"
         },
         {
             "trait_type": "Eyes",
@@ -17,11 +21,11 @@
         },
         {
             "trait_type": "Hair",
-            "value": "Pony Tails"
+            "value": "Emo Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Big Smile"
+            "value": "Black Lipstick"
         },
         {
             "trait_type": "Nose",

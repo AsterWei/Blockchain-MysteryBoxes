@@ -4,8 +4,12 @@
     "name": "MysteryBoxMetadata 3",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": "\u2605\u2605"
+        },
+        {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
@@ -21,7 +25,7 @@
         },
         {
             "trait_type": "Mouth",
-            "value": "Teeth Smile"
+            "value": "Big Smile"
         },
         {
             "trait_type": "Nose",
