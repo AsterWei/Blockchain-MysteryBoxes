@@ -46,9 +46,9 @@ const Create = ({ marketplace, nft }) => {
 
         // upload every image
         // for (let i = 0; i < requireModule.keys().length; i++) {
-        // for (let i = 0; i < 1; i++) {
+        for (let i = 0; i < 1; i++) {
             // get target image
-            const imageName = requireModule.keys()[0].substr(2, requireModule.keys()[0].length);
+            const imageName = requireModule.keys()[i].substr(2, requireModule.keys()[i].length);
             // get image name without suffix
             const index = imageName.split('.')[0];
             const curImage = require(`../asserts/images/${index}.png`);
@@ -67,7 +67,7 @@ const Create = ({ marketplace, nft }) => {
             } catch (error) {
                 console.log("ipfs uri upload error: ", error);
             }
-        // }
+        }
 
         // if (!image || !price || !name || !description) return
         // try {
