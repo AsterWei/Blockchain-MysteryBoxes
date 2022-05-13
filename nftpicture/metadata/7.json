@@ -1,11 +1,15 @@
 {
-    "image": "https://gateway.pinata.cloud/ipfs/QmUU8vq62wRy4L2tcxhR5WfGXAiDus5P9BULP947SD2Mz1/7.png",
+    "image": "https://ipfs.infura.io/ipfs/7.png",
     "tokenId": 7,
     "name": "MysteryBoxMetadata 7",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": 0.0002025
+        },
+        {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
@@ -13,23 +17,19 @@
         },
         {
             "trait_type": "Eyes",
-            "value": "Regular"
+            "value": "Small"
         },
         {
             "trait_type": "Hair",
-            "value": "Bubble Hair"
+            "value": "Thin Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Big Smile"
+            "value": "Teeth Smile"
         },
         {
             "trait_type": "Nose",
             "value": "Nose"
-        },
-        {
-            "trait_type": "Rarity",
-            "value": 0.0031499999999999996
         }
     ]
 }

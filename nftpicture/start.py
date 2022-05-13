@@ -19,8 +19,9 @@ hair = ['Up Hair', 'Down Hair', 'Mohawk', 'Red Mohawk', 'Orange Hair', 'Bubble H
  'Bald',
  'Blonde Hair',
  'Caret Hair',
- 'Pony Tails']
-hair_weights = [10 , 10 , 10 , 10 ,10, 10, 10 ,10 ,10, 7 , 1 , 2]
+ 'Pony Tails',
+ 'Green Hair']
+hair_weights = [5 , 1 , 1 , 1 ,2, 10, 10 ,10 ,10, 7 , 1 , 2, 40]
 
 mouth = ['Black Lipstick', 'Red Lipstick', 'Big Smile', 'Smile', 'Teeth Smile', 'Purple Lipstick']
 mouth_weights = [10, 10,50, 10,15, 5]
@@ -61,7 +62,8 @@ hair_files = {
     "Bald": "hair9",
     "Blonde Hair": "hair10",
     "Caret Hair": "hair11",
-    "Pony Tails": "hair12"
+    "Pony Tails": "hair12",
+    "Green Hair": "hair13"
 }
 
 
@@ -210,6 +212,7 @@ f = open('./metadata/all-traits.json',)
 data = json.load(f)
 
 # Changes this IMAGES_BASE_URL to yours 
+# IMAGES_BASE_URL = "https://ipfs.infura.io/ipfs/"
 IMAGES_BASE_URL = "https://gateway.pinata.cloud/ipfs/QmSvb2G2WFmkzjLMzmK7H25uTHJk2ZMKLopvdjg88u9kfg/"
 PROJECT_NAME = "MysteryBox6883"
 
@@ -226,9 +229,8 @@ for i in data:
         "name": PROJECT_NAME + ' ' + str(token_id),
         "attributes": []
     }
-    rarity = 1.0
+    token["attributes"].append(getAttribute("Rarity", i["Rarity"]))
     token["attributes"].append(getAttribute("Face", i["Face"]))
-
     token["attributes"].append(getAttribute("Ears", i["Ears"]))
     token["attributes"].append(getAttribute("Eyes", i["Eyes"]))
     token["attributes"].append(getAttribute("Hair", i["Hair"]))
@@ -246,6 +248,7 @@ f = open('./metadata/all-traits.json',)
 data = json.load(f)
 
 # Changes this IMAGES_BASE_URL to yours 
+# IMAGES_BASE_URL = "https://ipfs.infura.io/ipfs/"
 IMAGES_BASE_URL = "https://gateway.pinata.cloud/ipfs/QmUU8vq62wRy4L2tcxhR5WfGXAiDus5P9BULP947SD2Mz1/"
 PROJECT_NAME = "MysteryBoxMetadata"
 
@@ -262,13 +265,13 @@ for i in data:
         "name": PROJECT_NAME + ' ' + str(token_id),
         "attributes": []
     }
+    token["attributes"].append(getAttribute("Rarity", i["Rarity"]))
     token["attributes"].append(getAttribute("Face", i["Face"]))
     token["attributes"].append(getAttribute("Ears", i["Ears"]))
     token["attributes"].append(getAttribute("Eyes", i["Eyes"]))
     token["attributes"].append(getAttribute("Hair", i["Hair"]))
     token["attributes"].append(getAttribute("Mouth", i["Mouth"]))
     token["attributes"].append(getAttribute("Nose", i["Nose"]))
-    token["attributes"].append(getAttribute("Rarity", i["Rarity"]))
 
     with open('./metadata/' + str(token_id) + ".json", 'w') as outfile:
         json.dump(token, outfile, indent=4)

@@ -1,35 +1,35 @@
 {
-    "image": "https://gateway.pinata.cloud/ipfs/QmUU8vq62wRy4L2tcxhR5WfGXAiDus5P9BULP947SD2Mz1/6.png",
+    "image": "https://ipfs.infura.io/ipfs/6.png",
     "tokenId": 6,
     "name": "MysteryBoxMetadata 6",
     "attributes": [
         {
+            "trait_type": "Rarity",
+            "value": 2.1000000000000002e-06
+        },
+        {
             "trait_type": "Face",
-            "value": "Black"
+            "value": "White"
         },
         {
             "trait_type": "Ears",
-            "value": "Right Earring"
+            "value": "No Earring"
         },
         {
             "trait_type": "Eyes",
-            "value": "Regular"
+            "value": "Focused"
         },
         {
             "trait_type": "Hair",
-            "value": "Thin Hair"
+            "value": "Down Hair"
         },
         {
             "trait_type": "Mouth",
-            "value": "Big Smile"
+            "value": "Black Lipstick"
         },
         {
             "trait_type": "Nose",
-            "value": "Nose"
-        },
-        {
-            "trait_type": "Rarity",
-            "value": 0.005544
+            "value": "Nose Ring"
         }
     ]
 }
