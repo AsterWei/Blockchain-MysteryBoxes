@@ -28,8 +28,9 @@ export default function MyPurchases({ marketplace, nft, account }) {
                 totalPrice,
                 price: i.price,
                 itemId: i.itemId,
-                name: metadata.name,
-                description: metadata.description,
+                rarity: metadata.rarity,
+                // name: metadata.name,
+                // description: metadata.description,
                 image: metadata.image
             }
             return purchasedItem
@@ -54,7 +55,8 @@ export default function MyPurchases({ marketplace, nft, account }) {
                             <Col key={idx} className="overflow-hidden">
                                 <Card className='card' style={{'--borderColor': borderColor}}>
                                     <Card.Img variant="top" src={item.image} />
-                                    <Card.Footer>{ethers.utils.formatEther(item.totalPrice)} ETH</Card.Footer>
+                                    {/* <Card.Footer>{ethers.utils.formatEther(item.totalPrice)} ETH</Card.Footer> */}
+                                    <Card.Footer>{item.rarity}</Card.Footer>
                                 </Card>
                             </Col>
                         ))}
