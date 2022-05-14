@@ -38,7 +38,13 @@ npx hardhat run src/backend/scripts/deploy.js --network ropsten
 npx hardhat test
 ```
 
+## 5. Start the frontend
 
+under root path: `Blockchain-MysteryBoxes` ：
+
+```bash
+npm start
+```
 
 
 
