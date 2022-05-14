@@ -50,6 +50,27 @@ npm start
 
 Or using localhost:
 
+## 0. Change the file: hardhat.config.js
+
+```
+require("@nomiclabs/hardhat-waffle");
+require('dotenv').config();
+require("@nomiclabs/hardhat-ethers");
+const { API_URL, PRIVATE_KEY } = process.env;
+module.exports = {
+  solidity: "0.8.4",
+  paths: {
+    artifacts: "./src/backend/artifacts",
+    sources: "./src/backend/contracts",
+    cache: "./src/backend/cache",
+    tests: "./src/backend/test"
+  },
+
+};
+```
+
+
+
 ## 1. Add test Metamask wallet account
 
 ![image-20220512164223254](hardhat几个命令.assets/image-20220512164223254.png)
