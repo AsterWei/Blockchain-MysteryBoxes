@@ -1,4 +1,4 @@
-# 运行步骤
+# How to run this project
 
 ## 1. Add MetaMask wallet network: ropsten
 
