@@ -4,5 +4,6 @@
     content: '';
     position: absolute;
     border: 7px ridge;
+    background: transparent;
     border-color: var(--borderColor);
 }

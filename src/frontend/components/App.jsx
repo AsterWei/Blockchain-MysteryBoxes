@@ -1,5 +1,5 @@
 
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import './App.css';
 import { useState } from 'react'
 import { ethers } from 'ethers'
@@ -58,7 +58,7 @@ function App() {
 				) : (
 					<Routes>
 						<Route
-							path="/"
+							path="/shelf"
 							element={<Home marketplace={marketplace} nft={nft}/>}
 						/>
 						<Route 
@@ -73,6 +73,7 @@ function App() {
 							path="/my-purchases" 
 							element={<MyPurchases marketplace={marketplace} nft={nft} account={account}/>}
 						/>
+						<Route path="/" element={<Navigate replace to="/shelf" />} />
 					</Routes>
 				)}
 

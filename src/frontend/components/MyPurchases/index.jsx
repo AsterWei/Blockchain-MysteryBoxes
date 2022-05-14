@@ -1,13 +1,11 @@
 import { useState, useEffect } from 'react'
-import { ethers } from "ethers"
 import { Row, Col, Card } from 'react-bootstrap'
 import NFTAddress from '../../contractsData/NFT-address.json'
-// import './index.css'
+import './index.css'
 
 export default function MyPurchases({ marketplace, nft, account }) {
     const [loading, setLoading] = useState(true)
     const [purchases, setPurchases] = useState([])
-    const [borderColor, setBorderColor] = useState('#FFA80D')
     const NFT_address = NFTAddress.address
 
     const loadPurchasedItems = async () => {
@@ -25,7 +23,6 @@ export default function MyPurchases({ marketplace, nft, account }) {
             const metadata = await response.json()
             // get total price of item (item price + fee)
             const totalPrice = await marketplace.getTotalPrice(i.itemId)
-            // const totalPrice = await Contract.methods.getTotalPrice(i.itemId).sendBlock();
             // define listed item object
             let purchasedItem = {
                 totalPrice,
@@ -33,8 +30,6 @@ export default function MyPurchases({ marketplace, nft, account }) {
                 itemId: i.itemId,
                 tokenId: i.tokenId,
                 rarity: metadata.rarity,
-                // name: metadata.name,
-                // description: metadata.description,
                 image: metadata.image
             }
             return purchasedItem
@@ -57,12 +52,18 @@ export default function MyPurchases({ marketplace, nft, account }) {
                     <Row xs={1} md={2} lg={4} className="g-4 py-5">
                         {purchases.map((item, idx) => (
                             <Col key={idx} className="overflow-hidden">
-                                <Card className='card' style={{'--borderColor': borderColor}}>
+                                <Card 
+                                    className='card' 
+                                    style={{'--borderColor': item.rarity.length > 4 ? '#FFA80D' : item.rarity.length > 3 ? "pruple" : item.rarity.length > 2 ? 'blue' : 'grey'}}>
                                     <Card.Img variant="top" src={item.image} />
-                                    {/* <Card.Footer>{ethers.utils.formatEther(item.totalPrice)} ETH</Card.Footer> */}
-                                    <Card.Text>NFT Address: {NFT_address}</Card.Text>
+                                    <br/>
+                                    <Card.Text><b style={{ 'font-size': '22px' }}>NFT Address:</b> {NFT_address}</Card.Text>
                                     <Card.Text>{ item.tokenId.toString() }</Card.Text>
-                                    <Card.Footer>{item.rarity}</Card.Footer>
+                                    <Card.Footer
+                                        style={{'color': item.rarity.length > 4 ? '#FFA80D' : item.rarity.length > 3 ? "pruple" : item.rarity.length > 2 ? 'blue' : 'grey'}}
+                                    >
+                                        {item.rarity}
+                                    </Card.Footer>
                                 </Card>
                             </Col>
                         ))}

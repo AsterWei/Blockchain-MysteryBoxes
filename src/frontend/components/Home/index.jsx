@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react'
-import { ethers } from "ethers"
 import { Row, Col, Card, Button } from 'react-bootstrap'
 import boxCover from '../asserts/hezi.png'
 
@@ -67,8 +66,6 @@ const Home = ({ marketplace, nft }) => {
                                     <Card.Footer>
                                         <div className='d-grid'>
                                             <Button onClick={() => buyMarketItem(item)} variant="primary" size="lg">
-                                                {/* 把钱从Wei换成ETH */}
-                                                {/* Buy for {ethers.utils.formatEther(item.totalPrice)} ETH */}
                                                 Buy for 0.2 ETH
                                             </Button>
                                         </div>
