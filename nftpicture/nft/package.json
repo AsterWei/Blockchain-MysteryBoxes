@@ -1,0 +1,20 @@
+{
+  "name": "nft",
+  "version": "1.0.0",
+  "description": "change pic to nft",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@alch/alchemy-web3": "^1.4.2",
+    "@openzeppelin/contracts": "^4.6.0",
+    "dotenv": "^16.0.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "ethers": "^5.0.0"
+  }
+}

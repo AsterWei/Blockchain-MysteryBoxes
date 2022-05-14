@@ -1,0 +1,92 @@
+[
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Pony Tails",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "tokenId": 0
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Up Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "tokenId": 1
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Pony Tails",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose Ring",
+        "tokenId": 2
+    },
+    {
+        "Face": "Black",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Bald",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "tokenId": 3
+    },
+    {
+        "Face": "Black",
+        "Ears": "Left Earring",
+        "Eyes": "Focused",
+        "Hair": "Red Mohawk",
+        "Mouth": "Teeth Smile",
+        "Nose": "Nose",
+        "tokenId": 4
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Down Hair",
+        "Mouth": "Black Lipstick",
+        "Nose": "Nose",
+        "tokenId": 5
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Regular",
+        "Hair": "Orange Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "tokenId": 6
+    },
+    {
+        "Face": "White",
+        "Ears": "Left Earring",
+        "Eyes": "Focused",
+        "Hair": "Emo Hair",
+        "Mouth": "Smile",
+        "Nose": "Nose",
+        "tokenId": 7
+    },
+    {
+        "Face": "Black",
+        "Ears": "No Earring",
+        "Eyes": "Small",
+        "Hair": "Up Hair",
+        "Mouth": "Big Smile",
+        "Nose": "Nose",
+        "tokenId": 8
+    },
+    {
+        "Face": "White",
+        "Ears": "Right Earring",
+        "Eyes": "Regular",
+        "Hair": "Down Hair",
+        "Mouth": "Smile",
+        "Nose": "Nose",
+        "tokenId": 9
+    }
+]
